@@ -5,9 +5,10 @@
   "manifest_version": 3,
   "permissions": ["activeTab", "storage"],
   "host_permissions": [
-    "https://emailaiwriter-production.up.railway.app/api/email/generate",
+    "https://emailaiwriter-production.up.railway.app/",
     "*://mail.google.com/*"
   ],
+  
   "content_scripts": [
     {
       "js": ["content.js"],
